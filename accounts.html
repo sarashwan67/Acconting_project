@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Chart of Accounts</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+<body>
+    <nav class="nav-bar">
+        <div class="nav">
+            <a href="accounts.html">Accounts</a>
+            <a href="index.html">Entry</a>
+            <a href="Trial_Balance.html">Trial Balance</a>
+            <a href="Income_Statement.html">Income Statement</a>
+            <a href="Balance_Sheet.html">Balance Sheet</a>
+
+        </div>
+    </nav>
+    <h2>Chart of Accounts</h2>
+
+    <table border="1" width="100%">
+        <thead>
+            <tr>
+                <th>Code</th>
+                <th>Account Name</th>
+                <th>Action</th>
+            </tr>
+        </thead>
+
+        <tbody id="tbody"></tbody>
+    </table>
+
+    <br>
+    <div class="buttons">
+        <button onclick="addRow()">➕ Add Account</button>
+        <button onclick="saveAccounts()">💾 Save</button>
+        <button onclick="resetDemoData()">🔄 Reset Demo</button>
+    </div>
+    <script src="js/accounts.js"></script>
+
+</body>
+
+</html>

@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Accounting System-Entry</title>
+        <link rel="stylesheet" href="css/entry.css">
+    </head>
+    <body>
+        <nav class="nav-bar">
+        <div class="nav">
+            <a href="accounts.html">Accounts</a>
+            <a href="index.html">Entry</a>
+            <a href="Trial_Balance.html">Trial Balance</a>
+            <a href="Income_Statement.html">Income Statement</a>
+            <a href="Balance_Sheet.html">Balance Sheet</a>
+            
+        </div>
+    </nav>
+        
+        <main>
+            <h2>Journal Entry</h2>
+
+            <table id="journalTable">
+                <thead>
+                    <tr>
+                        <th>Date</th>
+                        <th>Code</th>
+                        <th>Account Name</th>
+                        <th>Dr</th>
+                        <th>Cr</th>
+                        <th>Journal No.</th>
+                        <th>Explanation</th>
+                        <th>Cost Centre</th>
+                        <th>Type of Account</th>
+                        <th>Numirical</th>
+                    </tr>
+                </thead>
+
+                <tbody id="tbody">
+                    
+                </tbody>
+            </table>
+
+            <button onclick="addEntry()">➕ Add Journal Entry</button>
+
+        </main>
+
+
+        <script src="js/main1.js"></script>
+    </body>
+</html>
