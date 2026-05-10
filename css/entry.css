@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: rgb(199, 199, 199)40a1b;
+    text-align: center;
+}
+a{
+    text-decoration: none;
+    color: rgb(1, 159, 49);
+}
+.nav-bar{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 20px 50px;
+    position: sticky;
+    border: 1px rgb(209, 209, 209) solid;
+}
+.nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 50px;
+}
+nav a {
+    font-size: 18px;
+    transition: 0.3s;
+}
+nav a:hover {
+    color: #11da0e;
+    transform: scale(1.1);
+    transition: 0.3s;
+}
+main{
+    margin: 20px;
+}
+h2{
+    padding-bottom: 20px;
+    color: rgb(1, 159, 49);
+    font-size: 50px;
+}
+table { 
+    border-collapse: collapse; 
+    width: 100%; 
+}
+th{
+    background-color: rgb(206, 206, 206);
+}
+td{
+    color: rgb(139, 138, 138);
+}
+th, td { 
+    border: 1px solid #4a4a4a;
+    padding: 8px; 
+    text-align: center; 
+}
+input { 
+    width: 100%; 
+    border: none; 
+    outline: none; 
+    text-align: center; 
+}
+.error { 
+    background-color: #ffcccc; 
+}
+.ok { 
+    background-color: #ccffcc; 
+}
+button { 
+    cursor: pointer;
+    margin-top: 10px; 
+    padding: 10px; 
+}
+button:hover{
+    background-color: #33ba33; 
+}
+#tbody tr {
+    background: white !important;
+}
+
+#tbody tr.ok {
+    background: #ccffcc !important;
+}
+
+#tbody tr.error {
+    background: #ffcccc !important;
+}
